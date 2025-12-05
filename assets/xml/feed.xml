@@ -1,18 +1,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
-  <link href="https://fabricmc.net/feed.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://fabricmc.net/" rel="alternate" type="text/html"/>
+  <link href="https://mosbergs.github.io/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://mosbergs.github.io/" rel="alternate" type="text/html"/>
   <updated>2025-12-05T09:58:07+00:00</updated>
-  <id>https://fabricmc.net/feed.xml</id>
+  <id>https://mosbergs.github.io/assets/xml/feed.xml</id>
   <title type="html">Fabric</title>
   <subtitle>The home of the Fabric mod development toolchain.</subtitle>
   <entry>
     <title type="html">Fabric for Minecraft 1.21.11</title>
-    <link href="https://fabricmc.net/2025/12/05/12111.html" rel="alternate" type="text/html" title="Fabric for Minecraft 1.21.11"/>
+    <link href="https://mosbergs.github.io/2025/12/05/12111.html" rel="alternate" type="text/html" title="Fabric for Minecraft 1.21.11"/>
     <published>2025-12-05T00:00:00+00:00</published>
     <updated>2025-12-05T00:00:00+00:00</updated>
-    <id>https://fabricmc.net/2025/12/05/12111</id>
-    <content type="html" xml:base="https://fabricmc.net/2025/12/05/12111.html">
+    <id>https://mosbergs.github.io/2025/12/05/12111</id>
+    <content type="html" xml:base="https://mosbergs.github.io/2025/12/05/12111.html">
       <p>A new version of Minecraft is coming soon with some changes that affect most mod makers. As always, <strong>we ask all players to be patient, and give mod developers time to update to this new version</strong>. We kindly ask everyone not to pester them. <strong>We also recommend all players make backups of their worlds</strong>.
       </p>
       <p>As you may be aware, we expect <a href="https://www.minecraft.net/en-us/article/removing-obfuscation-in-java-edition">1.21.11 to be the last version of Minecraft that is obfuscated</a>. The next snapshot will be the first version of Minecraft that will <strong>not</strong> be obfuscated.</p>
@@ -137,7 +137,7 @@
       <h3 id="environment-attributes">Environment Attributes</h3>
       <p>The Biome Modification API has been updated to support the new Environment Attributes system. Mods can now modify environment attributes such as temperature, humidity, and altitude for biomes using the <code class="language-plaintext highlighter-rouge">BiomeModificationContext#AttributesContext</code> class. You can access the attributes context by using the <code class="language-plaintext highlighter-rouge">getAttributes()</code> method on the <code class="language-plaintext highlighter-rouge">BiomeModificationContext</code> object.</p>
       <h2 id="an-update-on-unobfuscation">An update on unobfuscation</h2>
-      <p>Alongside updating to each 1.21.11 snapshot, Fabric has been working towards <a href="https://fabricmc.net/2025/10/31/obfuscation.html">making this transition as smooth as possible</a>. Currently, Mojang has been releasing experimental unobfuscated versions of Minecraft alongside the obfuscated ones, allowing us to test and prepare for the transition.</p>
+      <p>Alongside updating to each 1.21.11 snapshot, Fabric has been working towards <a href="https://mosbergs.github.io/2025/10/31/obfuscation.html">making this transition as smooth as possible</a>. Currently, Mojang has been releasing experimental unobfuscated versions of Minecraft alongside the obfuscated ones, allowing us to test and prepare for the transition.</p>
       <p>With that in mind, this is a good time to begin <a href="https://docs.fabricmc.net/develop/migrating-mappings/">remapping your mods to the official Mojang Mappings</a>, as Yarn will not be available for the version of Minecraft after 1.21.11. The differences between Mojang mappings and the unobfuscated game do not affect compilation, so switching to Mojang mappings now will allow for an easier transition when porting to future snapshots. There is no immediate rush to do this, as we anticipate the first unobfuscated stable release will be a few months into 2026.</p>
       <p>The unobfuscation process has raised many questions. We’ve answered some of the more common ones here, but please reach out in the Fabric Discord if you have any specific questions.</p>
       <h3 id="is-12111-obfuscated-or-not">Is 1.21.11 obfuscated or not?</h3>
@@ -169,11 +169,11 @@
   </entry>
   <entry>
     <title type="html">Removing Obfuscation from Fabric</title>
-    <link href="https://fabricmc.net/2025/10/31/obfuscation.html" rel="alternate" type="text/html" title="Removing Obfuscation from Fabric"/>
+    <link href="https://mosbergs.github.io/2025/10/31/obfuscation.html" rel="alternate" type="text/html" title="Removing Obfuscation from Fabric"/>
     <published>2025-10-31T00:00:00+00:00</published>
     <updated>2025-10-31T00:00:00+00:00</updated>
-    <id>https://fabricmc.net/2025/10/31/obfuscation</id>
-    <content type="html" xml:base="https://fabricmc.net/2025/10/31/obfuscation.html">
+    <id>https://mosbergs.github.io/2025/10/31/obfuscation</id>
+    <content type="html" xml:base="https://mosbergs.github.io/2025/10/31/obfuscation.html">
       <p>Mojang recently published <a href="https://www.minecraft.net/en-us/article/removing-obfuscation-in-java-edition">a blog post</a> announcing that they will be removing obfuscation from Minecraft: Java Edition starting with the first snapshot after the <em>Mounts of Mayhem</em> launch later this year. There will also be supplementary “experimental” releases starting with next Tuesday’s snapshot to allow us time to prepare and migrate.</p>
       <p>This is a major change that will affect the entire modding community. This blog post will attempt to give a rundown of how the Fabric toolchain will be affected, and what this means for Fabric mod developers.</p>
       <h2 id="what-is-obfuscation">What is obfuscation?</h2>
@@ -236,11 +236,11 @@
   </entry>
   <entry>
     <title type="html">Fabric for Minecraft 1.21.9 &amp; 1.21.10</title>
-    <link href="https://fabricmc.net/2025/09/23/1219.html" rel="alternate" type="text/html" title="Fabric for Minecraft 1.21.9 &amp; 1.21.10"/>
+    <link href="https://mosbergs.github.io/2025/09/23/1219.html" rel="alternate" type="text/html" title="Fabric for Minecraft 1.21.9 &amp; 1.21.10"/>
     <published>2025-09-23T00:00:00+00:00</published>
     <updated>2025-09-23T00:00:00+00:00</updated>
-    <id>https://fabricmc.net/2025/09/23/1219</id>
-    <content type="html" xml:base="https://fabricmc.net/2025/09/23/1219.html">
+    <id>https://mosbergs.github.io/2025/09/23/1219</id>
+    <content type="html" xml:base="https://mosbergs.github.io/2025/09/23/1219.html">
       <p>A new version of Minecraft is coming soon with some changes that affect most mod makers. As always, <strong>we ask all players to be patient, and give mod developers time to update to this new version.</strong> We kindly ask everyone not to pester them. <strong>We also recommend all players make backups of their worlds.</strong>
       </p>
       <p>Here is a list of several major modder-facing changes in this version. Note that all code references are using Yarn mappings; modders using alternative mappings may need to use different names.</p>
@@ -623,7 +623,7 @@
         </div>
       </div>
       <h4 id="particles">Particles</h4>
-      <p>Particle rendering has been changed to use the same queue system as above. Many good examples for implementing custom rendering via the queue can be found in the vanilla particle classes.         <!-- no examples, I'm not awake enough to be trusted with a buffer. --></p>
+      <p>Particle rendering has been changed to use the same queue system as above. Many good examples for implementing custom rendering via the queue can be found in the vanilla particle classes.                 <!-- no examples, I'm not awake enough to be trusted with a buffer. --></p>
       <h4 id="entities">Entities</h4>
       <p>Entity rendering has changed to use the same queue as shown above. Changes will be similar.</p>
       <h3 id="keybinding-changes">Keybinding Changes</h3>
@@ -870,11 +870,11 @@
   </entry>
   <entry>
     <title type="html">Fabric for Minecraft 1.21.6, 1.21.7 &amp; 1.21.8</title>
-    <link href="https://fabricmc.net/2025/06/15/1216.html" rel="alternate" type="text/html" title="Fabric for Minecraft 1.21.6, 1.21.7 &amp; 1.21.8"/>
+    <link href="https://mosbergs.github.io/2025/06/15/1216.html" rel="alternate" type="text/html" title="Fabric for Minecraft 1.21.6, 1.21.7 &amp; 1.21.8"/>
     <published>2025-06-15T00:00:00+00:00</published>
     <updated>2025-06-15T00:00:00+00:00</updated>
-    <id>https://fabricmc.net/2025/06/15/1216</id>
-    <content type="html" xml:base="https://fabricmc.net/2025/06/15/1216.html">
+    <id>https://mosbergs.github.io/2025/06/15/1216</id>
+    <content type="html" xml:base="https://mosbergs.github.io/2025/06/15/1216.html">
       <p>A new version of Minecraft is coming soon with some changes that affect most mod makers. As always, <strong>we ask all players to be patient, and give mod developers time to update to this new version.</strong> We kindly ask everyone not to pester them. <strong>We also recommend all players make backups of their worlds.</strong>
       </p>
       <p>Here is a list of several major modder-facing changes in this version. Note that all code references are using Yarn mappings; modders using alternative mappings may need to use different names.</p>
@@ -1692,11 +1692,11 @@
   </entry>
   <entry>
     <title type="html">Fabric for Minecraft 1.21.5</title>
-    <link href="https://fabricmc.net/2025/03/24/1215.html" rel="alternate" type="text/html" title="Fabric for Minecraft 1.21.5"/>
+    <link href="https://mosbergs.github.io/2025/03/24/1215.html" rel="alternate" type="text/html" title="Fabric for Minecraft 1.21.5"/>
     <published>2025-03-24T00:00:00+00:00</published>
     <updated>2025-03-24T00:00:00+00:00</updated>
-    <id>https://fabricmc.net/2025/03/24/1215</id>
-    <content type="html" xml:base="https://fabricmc.net/2025/03/24/1215.html">
+    <id>https://mosbergs.github.io/2025/03/24/1215</id>
+    <content type="html" xml:base="https://mosbergs.github.io/2025/03/24/1215.html">
       <p>A new version of Minecraft is coming soon with some changes that affect most mod makers. As always, <strong>we ask all players to be patient, and give mod developers time to update to this new version.</strong> We kindly ask everyone not to pester them. <strong>We also recommend all players make backups of their worlds.</strong>
       </p>
       <p>Here is a list of several major modder-facing changes in this version. Note that all code references are using Yarn mappings; modders using alternative mappings may need to use different names.</p>
@@ -1712,7 +1712,7 @@
         <code class="language-plaintext highlighter-rouge">HudRenderCallback</code> has been deprecated in favor of newly added <code class="language-plaintext highlighter-rouge">HudLayerRegistrationCallback</code>.
       </p>
       <h3 id="breaking-changes">Breaking changes</h3>
-      <p>When a mod creates a new dynamic registry, the data pack JSON files for the registry must now be placed inside namespaced directories. For example, if the new registry is <code class="language-plaintext highlighter-rouge">example:potato_variant</code>, the file for variant <code class="language-plaintext highlighter-rouge">test:tiny</code> will be placed in <code class="language-plaintext highlighter-rouge">data/test/example/potato_variant/tiny.json</code>.        <!-- https://github.com/FabricMC/fabric/pull/4180 --></p>
+      <p>When a mod creates a new dynamic registry, the data pack JSON files for the registry must now be placed inside namespaced directories. For example, if the new registry is <code class="language-plaintext highlighter-rouge">example:potato_variant</code>, the file for variant <code class="language-plaintext highlighter-rouge">test:tiny</code> will be placed in <code class="language-plaintext highlighter-rouge">data/test/example/potato_variant/tiny.json</code>.                <!-- https://github.com/FabricMC/fabric/pull/4180 --></p>
       <p>
         <code class="language-plaintext highlighter-rouge">BiomeModificationContext#addSpawn</code> has a new parameter, <code class="language-plaintext highlighter-rouge">weight</code>. This was previously part of <code class="language-plaintext highlighter-rouge">SpawnEntry</code>.
       </p>
@@ -1888,11 +1888,11 @@
   </entry>
   <entry>
     <title type="html">Fabric for Minecraft 1.21.4</title>
-    <link href="https://fabricmc.net/2024/12/02/1214.html" rel="alternate" type="text/html" title="Fabric for Minecraft 1.21.4"/>
+    <link href="https://mosbergs.github.io/2024/12/02/1214.html" rel="alternate" type="text/html" title="Fabric for Minecraft 1.21.4"/>
     <published>2024-12-02T00:00:00+00:00</published>
     <updated>2024-12-02T00:00:00+00:00</updated>
-    <id>https://fabricmc.net/2024/12/02/1214</id>
-    <content type="html" xml:base="https://fabricmc.net/2024/12/02/1214.html">
+    <id>https://mosbergs.github.io/2024/12/02/1214</id>
+    <content type="html" xml:base="https://mosbergs.github.io/2024/12/02/1214.html">
       <p>Minecraft 1.21.4, the Garden Awakens drop, releases December 3rd. Like with other updates, this drop contains some significant changes affecting mod makers.</p>
       <p>As always, <strong>we ask all players to be patient, and give mod developers time to update to this new version.</strong> We kindly ask everyone not to pester them. <strong>We also recommend all players make backups of their worlds.</strong>
       </p>
@@ -2042,7 +2042,7 @@
         <div class="highlight">
           <pre class="highlight">
             <code> fabricApi { <span class="gd">- configureDataGeneration() </span>
-              <span class="gi">+ configureDataGeneration { + client = true + } </span> } 
+              <span class="gi">+ configureDataGeneration { + client = true + } </span> }
             </code>
           </pre>
         </div>
@@ -2324,11 +2324,11 @@
   </entry>
   <entry>
     <title type="html">Fabric for Minecraft 1.21.2</title>
-    <link href="https://fabricmc.net/2024/10/14/1212.html" rel="alternate" type="text/html" title="Fabric for Minecraft 1.21.2"/>
+    <link href="https://mosbergs.github.io/2024/10/14/1212.html" rel="alternate" type="text/html" title="Fabric for Minecraft 1.21.2"/>
     <published>2024-10-14T00:00:00+00:00</published>
     <updated>2024-10-14T00:00:00+00:00</updated>
-    <id>https://fabricmc.net/2024/10/14/1212</id>
-    <content type="html" xml:base="https://fabricmc.net/2024/10/14/1212.html">
+    <id>https://mosbergs.github.io/2024/10/14/1212</id>
+    <content type="html" xml:base="https://mosbergs.github.io/2024/10/14/1212.html">
       <p>Minecraft 1.21.2, the “Bundles of Bravery” drop, is expected to release soon. Mojang has recently <a href="https://www.minecraft.net/en-us/article/the-future-of-minecrafts-development">announced</a> that they will release these “drops” throughout the year. Like with other updates, this drop contains some significant changes affecting mod makers.</p>
       <p>As always, <strong>we ask all players to be patient, and give mod developers time to update to this new version.</strong> We ask everyone kindly not to pester them. <strong>We also recommend all players to make a backup of their worlds.</strong>
       </p>
@@ -3082,11 +3082,11 @@
 </entry>
 <entry>
   <title type="html">Fabric for Minecraft 1.21</title>
-  <link href="https://fabricmc.net/2024/05/31/121.html" rel="alternate" type="text/html" title="Fabric for Minecraft 1.21"/>
+  <link href="https://mosbergs.github.io/2024/05/31/121.html" rel="alternate" type="text/html" title="Fabric for Minecraft 1.21"/>
   <published>2024-05-31T00:00:00+00:00</published>
   <updated>2024-05-31T00:00:00+00:00</updated>
-  <id>https://fabricmc.net/2024/05/31/121</id>
-  <content type="html" xml:base="https://fabricmc.net/2024/05/31/121.html">
+  <id>https://mosbergs.github.io/2024/05/31/121</id>
+  <content type="html" xml:base="https://mosbergs.github.io/2024/05/31/121.html">
     <p>Minecraft 1.21 is expected to be released on June 13, with some significant changes affecting mod makers.</p>
     <p>It’s been only a month and a half since we last released a blogpost. Yet, this update is nothing small - some changes are likely to affect most, if not all, mods.</p>
     <p>As always, <strong>we ask all players to be patient, and give mod developers time to update to this new version.</strong> We ask everyone kindly not to pester them. <strong>We also recommend all players to make a backup of their worlds.</strong>
@@ -3371,11 +3371,11 @@
 </entry>
 <entry>
 <title type="html">Fabric for Minecraft 1.20.5 &amp; 1.20.6</title>
-<link href="https://fabricmc.net/2024/04/19/1205.html" rel="alternate" type="text/html" title="Fabric for Minecraft 1.20.5 &amp; 1.20.6"/>
+<link href="https://mosbergs.github.io/2024/04/19/1205.html" rel="alternate" type="text/html" title="Fabric for Minecraft 1.20.5 &amp; 1.20.6"/>
 <published>2024-04-19T00:00:00+00:00</published>
 <updated>2024-04-19T00:00:00+00:00</updated>
-<id>https://fabricmc.net/2024/04/19/1205</id>
-<content type="html" xml:base="https://fabricmc.net/2024/04/19/1205.html">
+<id>https://mosbergs.github.io/2024/04/19/1205</id>
+<content type="html" xml:base="https://mosbergs.github.io/2024/04/19/1205.html">
   <p>Minecraft 1.20.5 is to be released in the near future with significant changes affecting mod makers.</p>
   <p>But first, we need to make this clear: <strong>1.20.5 is a record-breaking update.</strong> This development cycle spans from December 18, 2023 to April of 2024, the longest for any “dot release”. We saw 15 snapshots, the first time it became two digits for a dot release (previous record was 1.20.3 for 8 snapshots). And no surprise: the amount of changes is also unprecedented.</p>
   <p>For this reason, <strong>we ask all players to be patient, and give mod developers time to update to this new version.</strong> We ask everyone kindly not to pester them. 1.20.5 is expected to be the last update of the 1.20 series.</p>
@@ -3394,7 +3394,7 @@
   <p>Please see the <a href="https://github.com/FabricMC/fabric-loom/releases/tag/1.5">Loom 1.5</a> and <a href="https://github.com/FabricMC/fabric-loom/releases/tag/1.6">Loom 1.6</a> release notes for all of the changes.</p>
   <h3 id="localization">Localization</h3>
   <p>Fabric has recently moved to using Crowdin to help manage translations for our projects. This makes it much easier to contribute translations across all Fabric projects.</p>
-  <p>Current projects include Fabric API and installer.     <!-- Docs are WIP --> If you are able to help translate Fabric into your language, please visit    <a href="https://crowdin.com/project/fabricmc">the Crowdin website</a>.
+  <p>Current projects include Fabric API and installer.         <!-- Docs are WIP --> If you are able to help translate Fabric into your language, please visit    <a href="https://crowdin.com/project/fabricmc">the Crowdin website</a>.
   </p>
   <h3 id="new-fabric-api-changes">New Fabric API changes</h3>
   <p>With the help of many contributors, Fabric API has received some new features since the last update blog post:</p>
@@ -4630,7 +4630,7 @@
   <code>
     <span class="p">public class TestBlockLootTableProvider extends FabricBlockLootTableProvider { </span>
     <span class="gd">- private TestBlockLootTableProvider(FabricDataOutput output) { - super(output); </span>
-    <span class="gi">+ private TestBlockLootTableProvider(FabricDataOutput output, CompletableFuture&lt;RegistryWrapper.WrapperLookup&gt; registryLookup) { + super(output, registryLookup); </span> } 
+    <span class="gi">+ private TestBlockLootTableProvider(FabricDataOutput output, CompletableFuture&lt;RegistryWrapper.WrapperLookup&gt; registryLookup) { + super(output, registryLookup); </span> }
   </code>
 </pre>
 </div>
@@ -4688,11 +4688,11 @@
 </entry>
 <entry>
 <title type="html">Fabric for Minecraft 1.20.3 &amp; 1.20.4</title>
-<link href="https://fabricmc.net/2023/11/30/1203.html" rel="alternate" type="text/html" title="Fabric for Minecraft 1.20.3 &amp; 1.20.4"/>
+<link href="https://mosbergs.github.io/2023/11/30/1203.html" rel="alternate" type="text/html" title="Fabric for Minecraft 1.20.3 &amp; 1.20.4"/>
 <published>2023-11-30T00:00:00+00:00</published>
 <updated>2023-11-30T00:00:00+00:00</updated>
-<id>https://fabricmc.net/2023/11/30/1203</id>
-<content type="html" xml:base="https://fabricmc.net/2023/11/30/1203.html">
+<id>https://mosbergs.github.io/2023/11/30/1203</id>
+<content type="html" xml:base="https://mosbergs.github.io/2023/11/30/1203.html">
 <p>It’s only been two months since we published the last article on Minecraft updates, but here we are. Minecraft 1.20.3 is to be released in the near future with some changes affecting mod makers.</p>
 <p>As usual, we ask players to be patient, and give mod developers time to update to this new version. Given the rather short interval between updates, some authors may choose to have a rest and skip some versions; we ask everyone kindly not to pester them.</p>
 <p>Here is a list of all major modder-facing changes in this version. Note that all code references are using Yarn mappings; modders using alternative mappings may need to use different names.</p>
