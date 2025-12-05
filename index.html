@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+    <title>Template mod generator - Modified by Mosberg | Fabric</title>
+    <meta name="generator" content="Jekyll v4.2.0" />
+    <meta
+      property="og:title"
+      content="Template mod generator - Modified by Mosberg"
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta
+      name="description"
+      content="The home of the Fabric mod development toolchain - Modified by Mosberg."
+    />
+    <meta
+      property="og:description"
+      content="The home of the Fabric mod development toolchain - Modified by Mosberg."
+    />
+    <link rel="canonical" href="https://fabricmc.net/develop/template/" />
+    <meta property="og:url" content="https://fabricmc.net/develop/template/" />
+    <meta property="og:site_name" content="Fabric" />
+    <meta name="twitter:card" content="summary" />
+    <meta
+      property="twitter:title"
+      content="Template mod generator - Modified by Mosberg"
+    />
+
+    <meta name="author" content="Mosberg" />
+
+    <script type="application/ld+json">
+      {
+        "headline": "Template mod generator - Modified by Mosberg",
+        "description": "The home of the Fabric mod development toolchain - Modified by Mosberg.",
+        "url": "https://fabricmc.net/develop/template/",
+        "@type": "WebPage",
+        "@context": "https://schema.org"
+      }
+    </script>
+    <!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="./assets/css/theme_light.css" />
+    <link
+      rel="stylesheet"
+      media="(prefers-color-scheme: dark)"
+      href="./assets/css/theme_dark.css"
+    />
+    <link
+      type="application/atom+xml"
+      rel="alternate"
+      href="./assets/xml/feed.xml"
+      title="Fabric"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/img/favicon.png"
+    />
+
+    <link type="text/css" rel="stylesheet" href="./assets/css/base.css" />
+  </head>
+  <body>
+    <header class="site-header" role="banner">
+      <div class="wrapper">
+        <div class="site-header-logo">
+          <a class="site-title" rel="author" href="/"
+            ><img
+              src="./assets/img/favicon.png"
+              style="image-rendering: pixelated"
+              width="52"
+              height="56"
+              alt="charset"
+            />
+            Fabric</a
+          >
+        </div>
+      </div>
+    </header>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+          <header class="post-header">
+            <h1 class="post-title">
+              Template mod generator - Modified by Mosberg
+            </h1>
+          </header>
+
+          <div class="post-content">
+            <p>
+              Use this tool to generate a customised minecraft fabric template
+              mod project.
+            </p>
+
+            <noscript style="color: red"
+              >You need Javascript to generate a mod template</noscript
+            >
+            <div class="fabric-component" data-component="Template">
+              <div class="template svelte-c4460r">
+                <div class="form-line svelte-c4460r">
+                  <h3 class="svelte-c4460r">Mod Name:</h3>
+                  <hr class="svelte-c4460r" />
+                  <p class="svelte-c4460r">
+                    Choose a name for your new mod. The mod ID will be
+                    <code class="svelte-c4460r">template-mod</code>.
+                    <a href="" class="svelte-c4460r">Use custom id</a>
+                  </p>
+                  <input id="project-name" class="svelte-c4460r" />
+                </div>
+                <div class="form-line svelte-c4460r">
+                  <h3 class="svelte-c4460r">Package Name:</h3>
+                  <hr class="svelte-c4460r" />
+                  <p class="svelte-c4460r">
+                    Choose a unique package name for your new mod. The package
+                    name should be unique to you. If you are unsure about this
+                    use <code class="svelte-c4460r">name.modid</code>.
+                  </p>
+                  <input id="package-name" class="svelte-c4460r" />
+                </div>
+                <div class="form-line svelte-c4460r">
+                  <h3 class="svelte-c4460r">Minecraft Version:</h3>
+                  <hr class="svelte-c4460r" />
+                  <p class="svelte-c4460r">
+                    Select the version of Minecraft that you wish to use for
+                    your mod.
+                  </p>
+                  <select
+                    id="minecraft-version"
+                    class="svelte-c4460r"
+                    style="min-width: 200px"
+                  >
+                    <option value="1.21.11-rc2" class="svelte-c4460r">
+                      1.21.11-rc2
+                    </option>
+                    <option value="1.21.10" class="svelte-c4460r">
+                      1.21.10
+                    </option>
+                    <option value="1.21.9" class="svelte-c4460r">1.21.9</option>
+                    <option value="1.21.8" class="svelte-c4460r">1.21.8</option>
+                    <option value="1.21.7" class="svelte-c4460r">1.21.7</option>
+                    <option value="1.21.6" class="svelte-c4460r">1.21.6</option>
+                    <option value="1.21.5" class="svelte-c4460r">1.21.5</option>
+                    <option value="1.21.4" class="svelte-c4460r">1.21.4</option>
+                    <option value="1.21.3" class="svelte-c4460r">1.21.3</option>
+                    <option value="1.21.2" class="svelte-c4460r">1.21.2</option>
+                    <option value="1.21.1" class="svelte-c4460r">1.21.1</option>
+                    <option value="1.21" class="svelte-c4460r">1.21</option>
+                    <option value="1.20.6" class="svelte-c4460r">1.20.6</option>
+                    <option value="1.20.5" class="svelte-c4460r">1.20.5</option>
+                    <option value="1.20.4" class="svelte-c4460r">1.20.4</option>
+                    <option value="1.20.3" class="svelte-c4460r">1.20.3</option>
+                    <option value="1.20.2" class="svelte-c4460r">1.20.2</option>
+                    <option value="1.20.1" class="svelte-c4460r">1.20.1</option>
+                    <option value="1.20" class="svelte-c4460r">1.20</option>
+                    <option value="1.19.4" class="svelte-c4460r">1.19.4</option>
+                    <option value="1.19.3" class="svelte-c4460r">1.19.3</option>
+                    <option value="1.19.2" class="svelte-c4460r">1.19.2</option>
+                    <option value="1.19.1" class="svelte-c4460r">1.19.1</option>
+                    <option value="1.19" class="svelte-c4460r">1.19</option>
+                    <option value="1.18.2" class="svelte-c4460r">1.18.2</option>
+                    <option value="1.18.1" class="svelte-c4460r">1.18.1</option>
+                    <option value="1.18" class="svelte-c4460r">1.18</option>
+                    <option value="1.17.1" class="svelte-c4460r">1.17.1</option>
+                    <option value="1.17" class="svelte-c4460r">1.17</option>
+                    <option value="1.16.5" class="svelte-c4460r">1.16.5</option>
+                    <option value="1.16.4" class="svelte-c4460r">1.16.4</option>
+                    <option value="1.16.3" class="svelte-c4460r">1.16.3</option>
+                    <option value="1.16.2" class="svelte-c4460r">1.16.2</option>
+                    <option value="1.16.1" class="svelte-c4460r">1.16.1</option>
+                    <option value="1.16" class="svelte-c4460r">1.16</option>
+                    <option value="1.15.2" class="svelte-c4460r">1.15.2</option>
+                    <option value="1.15.1" class="svelte-c4460r">1.15.1</option>
+                    <option value="1.15" class="svelte-c4460r">1.15</option>
+                    <option value="1.14.4" class="svelte-c4460r">1.14.4</option>
+                  </select>
+                </div>
+                <hr class="svelte-c4460r" />
+                <br class="svelte-c4460r" />
+                <h4 class="svelte-c4460r">Advanced Options:</h4>
+                <div class="svelte-c4460r">
+                  <div class="option-container svelte-c4460r">
+                    <input
+                      id="kotlin"
+                      type="checkbox"
+                      class="option-input svelte-c4460r"
+                    />
+                    <label for="kotlin" class="option-label svelte-c4460r"
+                      >Kotlin Programming Language</label
+                    >
+                  </div>
+                  <p class="option-body svelte-c4460r">
+                    <a href="https://kotlinlang.org/" class="svelte-c4460r"
+                      >Kotlin</a
+                    >
+                    is a alternative programming language that can be used to
+                    develop mods. The
+                    <a
+                      href="https://github.com/FabricMC/fabric-language-kotlin"
+                      class="svelte-c4460r"
+                      >Fabric Kotlin language adapter</a
+                    >
+                    is used to enable support for creating Fabric Kotlin mods.
+                  </p>
+                </div>
+                <div class="svelte-c4460r">
+                  <div class="option-container svelte-c4460r">
+                    <input
+                      id="mojmap"
+                      type="checkbox"
+                      class="option-input svelte-c4460r"
+                    />
+                    <label for="mojmap" class="option-label svelte-c4460r"
+                      >Mojang Mappings</label
+                    >
+                  </div>
+                  <p class="option-body svelte-c4460r">
+                    Use Mojang's official mappings rather than Yarn. Note that
+                    Mojang's mappings come with a usable yet more restrictive
+                    license than Yarn. Use them at your own risk.
+                  </p>
+                </div>
+                <div class="svelte-c4460r">
+                  <div class="option-container svelte-c4460r">
+                    <input
+                      id="datagen"
+                      type="checkbox"
+                      class="option-input svelte-c4460r"
+                    />
+                    <label for="datagen" class="option-label svelte-c4460r"
+                      >Data Generation</label
+                    >
+                  </div>
+                  <p class="option-body svelte-c4460r">
+                    This option configures the
+                    <a
+                      href="https://fabricmc.net/wiki/tutorial:datagen_setup"
+                      class="svelte-c4460r"
+                      >Fabric Data Generation API</a
+                    >
+                    in your mod. This allows you to generate resources such as
+                    recipes from code at build time.
+                  </p>
+                </div>
+                <div class="svelte-c4460r">
+                  <div class="option-container svelte-c4460r">
+                    <input
+                      id="splitSources"
+                      type="checkbox"
+                      class="option-input svelte-c4460r"
+                    />
+                    <label for="splitSources" class="option-label svelte-c4460r"
+                      >Split client and common sources</label
+                    >
+                  </div>
+                  <p class="option-body svelte-c4460r">
+                    A common source of server crashes comes from calling client
+                    only code when installed on a server. This option configures
+                    your mod to be built from two source sets, client and main.
+                    This enforces a clear separation between the client and
+                    server code.
+                  </p>
+                </div>
+                <br class="svelte-c4460r" />
+                <a
+                  class="button primary large download-button svelte-c4460r"
+                  href=""
+                  ><span class="svelte-u5e9wr"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      class="svelte-u5e9wr"
+                    >
+                      <path
+                        d="M320 336h76c55 0 100-21.21 100-75.6s-53-73.47-96-75.6C391.11 99.74 329 48 256 48c-69 0-113.44 45.79-128 91.2-60 5.7-112 35.88-112 98.4S70 336 136 336h56M192 400.1l64 63.9 64-63.9M256 224v224.03"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="56"
+                      ></path></svg
+                  ></span>
+                  Download Template (.ZIP)</a
+                >
+              </div>
+            </div>
+
+            <script
+              type="text/javascript"
+              src="./assets/scripts/main.js"
+            ></script>
+
+            <link href="./assets/css/layout.css" rel="stylesheet" />
+          </div>
+        </article>
+      </div>
+    </main>
+    <footer class="site-footer h-card">
+      <data class="u-url" href="/"></data>
+
+      <div class="wrapper">
+        <p>Copyright (c) 2025 Mosberg. All Rights Reserved.</p>
+        <p style="font-size: 10px">
+          NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH
+          MOJANG.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
